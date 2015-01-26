@@ -1,0 +1,30 @@
+extends layout
+
+block styles
+  link(rel='stylesheet', href='/index.css')
+
+block content
+  #index
+    h1 Kevin Whinnery
+    table
+      tr
+        td
+          img(src='/images/hand.gif')
+        td
+          span Featured Post: 
+          a(href='/evangelism') Thoughts on Developer Evangelism
+      tr
+        td
+          img.hidden(src='/images/hand.gif')
+        td
+          a(href='/archive') Archive
+
+      tr
+        td
+          img.hidden(src='/images/hand.gif')
+        td
+          a(href='/about') About
+
+block scripts
+  script(src='/lib/buzz.min.js')
+  script(src='/index.js')
