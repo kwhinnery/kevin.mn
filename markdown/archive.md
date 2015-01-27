@@ -45,3 +45,4 @@ Largely hosted publicly on [GitHub](https://github.com/kwhinnery), but some grea
 ## Words
 
 * Some [thoughts on the practice of developer evangelism](/evangelism)
+* An older piece [comparing Titanium and PhoneGap](/comparing-titanium-and-phonegap)
