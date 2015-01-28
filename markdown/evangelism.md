@@ -122,7 +122,7 @@ A component of being present is also your motivation - are you at an event to le
 <p>They actually printed my pixel art guild logos on giant banners for TwilioQuest. I couldn't believe it.</p>
 </div>
 
-Everyone has something unqiue to offer. The evangelist role offers you a tremendous amount of flexibility to give whatever bit of experience, expertise, or persepective you have to give. You will enjoy your work and be much more effective if you can successfully focus your unique gifts and interests for the benefit of the greater developer community.
+Everyone has something unique to offer. The evangelist role offers you a tremendous amount of flexibility to give whatever bit of experience, expertise, or persepective you have to give. You will enjoy your work and be much more effective if you can successfully focus your unique gifts and interests for the benefit of the greater developer community.
 
 I've been able to do this a few times in my career with some success, and these were some of my very favorite projects to work on. Twilio's developer community lacked a complete, idomatic client library for Node.js. I really like Node, so I decided to [write one](http://twilio.github.io/twilio-node/). I like teaching and mentoring, but I had become frustrated and disillusioned with traditional technical workshops. So I started [something a little crazy](http://quest.twilio.com/).
 
