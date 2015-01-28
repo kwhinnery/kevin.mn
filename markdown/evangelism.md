@@ -71,7 +71,7 @@ Lord knows I haven't taken my own advice every day on the job. When I look back 
 
 ## A Framework For What Works In Evangelism
 
-If you're hoping for a tactical breakdown of what do do as an evangelist (which events to attend or what kind of content to write) I'm afraid you'll be disappointed. What tactics will work best for you as an evangelist will vary wildly based on the community you serve. What I will focus on instead is a framework for making decisions about how you spend your time as a developer evangelist.
+If you're hoping for a tactical breakdown of what to do as an evangelist (which events to attend or what kind of content to write) I'm afraid you'll be disappointed. What tactics will work best for you as an evangelist will vary wildly based on the community you serve. What I will focus on instead is a framework for making decisions about how you spend your time as a developer evangelist.
 
 As I look back on the last six years, the best things I did happened because I was able to focus on these three things. Conversely, the worst failures I had were as a result of not remembering these things. To save you some scrolling, those three bits of advice were:
 
