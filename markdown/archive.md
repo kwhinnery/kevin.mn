@@ -44,5 +44,6 @@ Largely hosted publicly on [GitHub](https://github.com/kwhinnery), but some grea
 <a name="words"></a>
 ## Words
 
+* [Why you should come to Twilio Signal](/signal)
 * Some [thoughts on the practice of developer evangelism](/evangelism)
 * An older piece [comparing Titanium and PhoneGap](/comparing-titanium-and-phonegap)
