@@ -1,35 +1,20 @@
 {
   "name": "kevin.mn",
-  "version": "1.0.0",
-  "description": "Kevin Whinnery's public blog and website",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kwhinnery/kevin.mn"
-  },
-  "keywords": [
-    "personal",
-    "site",
-    "blog"
-  ],
-  "author": "Kevin Whinnery",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kwhinnery/kevin.mn/issues"
-  },
-  "homepage": "https://github.com/kwhinnery/kevin.mn",
   "dependencies": {
-    "cheerio": "^0.18.0",
-    "express": "^4.11.0",
-    "jade": "^1.9.1",
-    "less-middleware": "^1.0.4",
-    "marked": "^0.3.2",
-    "twilio": "^1.10.0"
+    "next": "12.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
-  "engines": {
-    "node": ">= 0.8.x"
+  "devDependencies": {
+    "eslint": "8.24.0",
+    "eslint-config-next": "12.3.1"
   }
 }
