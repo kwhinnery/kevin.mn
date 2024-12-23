@@ -1,4 +1,6 @@
 import { AiOutlineGithub, AiOutlineLinkedin, AiOutlineX } from "react-icons/ai";
+import { PiButterfly } from "react-icons/pi";
+
 import "./App.css";
 
 function App() {
@@ -6,22 +8,22 @@ function App() {
     <>
       <div
         className={`
-          flex flex-col items-center justify-center h-full w-full gap-4
-          md:flex-row
+          flex flex-col items-center justify-start h-full w-full gap-4
+          sm:flex-row sm:justify-center
         `}
       >
         <div>
           <img
             className={`
               w-48 h-48 rounded-full object-cover shadow-2xl
-              md:w-72 md:h-auto md:rounded-lg
+              sm:w-72 sm:h-auto sm:rounded-lg
             `}
             src="/kevin.jpeg"
             alt="Kevin Whinnery"
           />
         </div>
         <div className="flex flex-col gap-2 items-start">
-          <h1 className="text-xl md:text-3xl font-bold">Kevin Whinnery</h1>
+          <h1 className="text-xl sm:text-3xl font-bold">Kevin Whinnery</h1>
           <p className="flex items-center gap-1">
             Developer Experience @{" "}
             <a
@@ -36,6 +38,11 @@ function App() {
               <AiOutlineX className="w-4 h-4" />
               <a href="https://x.com/kevinwhinnery" target="_blank">
                 @kevinwhinnery
+              </a>
+              /
+              <PiButterfly className="w-4 h-4" />
+              <a href="https://bsky.app/profile/kevin.mn" target="_blank">
+                @kevin.mn
               </a>
             </li>
             <li className="flex items-center gap-2">
