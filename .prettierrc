@@ -3,5 +3,10 @@
   "singleQuote": false,
   "trailingComma": "es5",
   "tabWidth": 2,
-  "printWidth": 80
+  "printWidth": 80,
+  "plugins": [
+    "@trivago/prettier-plugin-sort-imports",
+    "prettier-plugin-tailwindcss"
+  ],
+  "tailwindPreserveWhitespace": true
 }
