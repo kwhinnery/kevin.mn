@@ -6,8 +6,8 @@ function App() {
     <>
       <div
         className={`
-          flex h-full w-full flex-col items-center justify-start gap-4 
-          sm:flex-row sm:justify-center
+          flex h-full w-full flex-col items-center justify-center gap-4 
+          sm:flex-row
         `}
       >
         <div>
