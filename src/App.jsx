@@ -23,7 +23,7 @@ function App() {
         <div className="flex flex-col items-start gap-2">
           <h1 className="text-xl font-bold sm:text-3xl">Kevin Whinnery</h1>
           <p className="flex items-center gap-1">
-            Developer Experience @{" "}
+            API Experience @{" "}
             <a href="https://platform.openai.com" target="_blank">
               OpenAI
             </a>
