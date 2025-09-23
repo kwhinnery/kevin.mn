@@ -22,8 +22,9 @@ function App() {
         </div>
         <div className="flex flex-col items-start gap-2">
           <h1 className="text-xl font-bold sm:text-3xl">Kevin Whinnery</h1>
-          <p className="flex items-center gap-1">
-            Head of Marketing and Developer Relations @{" "}
+          <p className="mb-2 text-sm">
+            Head of Marketing and Developer Relations
+            <br />@{" "}
             <a href="https://stainless.com" target="_blank">
               Stainless
             </a>
