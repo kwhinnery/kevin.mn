@@ -10,7 +10,14 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+.next
+.vinext
+.wrangler
+outputs
+work
 *.local
+next-env.d.ts
+tsconfig.tsbuildinfo
 
 .env
 

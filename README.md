@@ -4,14 +4,25 @@
 
 ## Local Development
 
-This is a [Vite](https://vitejs.dev/) project, and uses the
-[React plugin for Vite](https://github.com/vitejs/vite-plugin-react). Also uses
-[Tailwind CSS](https://tailwindcss.com/).
+The site uses React, Tailwind CSS, and the Sites-compatible vinext runtime.
+Install Node.js 22.13 or newer, then:
 
 ```bash
-npm install
+npm ci
 npm run dev
 ```
+
+Open the local URL printed in the terminal. Changes under `app/` reload
+automatically.
+
+Before publishing, run:
+
+```bash
+npm run build
+```
+
+The `/call` redirect and the `kevin.mn` → `www.kevin.mn` redirect are defined
+in `worker/index.ts`.
 
 ## License
 
