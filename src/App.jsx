@@ -22,6 +22,7 @@ function App() {
         </div>
         <div className="flex flex-col items-start gap-2">
           <h1 className="text-xl font-bold sm:text-3xl">Kevin Whinnery</h1>
+          {/*
           <p className="mb-2 text-sm">
             Developer Experience
             <br />@{" "}
@@ -29,6 +30,7 @@ function App() {
               Anthropic
             </a>
           </p>
+          */}
           <ul className="flex flex-col items-start gap-2 text-sm">
             <li className="flex items-center gap-2">
               <AiOutlineX className="h-4 w-4" />
