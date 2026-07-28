@@ -1,35 +1,13 @@
-import {
-  DEFAULT_DEVICE_SIZES,
-  DEFAULT_IMAGE_SIZES,
-  handleImageOptimization,
-} from "vinext/server/image-optimization";
-import handler from "vinext/server/app-router-entry";
-
 interface Env {
   ASSETS: {
     fetch(request: Request): Promise<Response>;
   };
-  IMAGES: {
-    input(stream: ReadableStream): {
-      transform(options: Record<string, unknown>): {
-        output(options: {
-          format: string;
-          quality: number;
-        }): Promise<{ response(): Response }>;
-      };
-    };
-  };
-}
-
-interface ExecutionContext {
-  waitUntil(promise: Promise<unknown>): void;
-  passThroughOnException(): void;
 }
 
 const CALENDAR_URL = "https://calendar.app.google/NhUoekZ6XjUf72VD6";
 
 const worker = {
-  async fetch(request: Request, env: Env, ctx: ExecutionContext) {
+  async fetch(request: Request, env: Env) {
     const url = new URL(request.url);
 
     if (url.hostname === "kevin.mn") {
@@ -41,25 +19,7 @@ const worker = {
       return Response.redirect(CALENDAR_URL, 307);
     }
 
-    if (url.pathname === "/_vinext/image") {
-      const allowedWidths = [...DEFAULT_DEVICE_SIZES, ...DEFAULT_IMAGE_SIZES];
-      return handleImageOptimization(
-        request,
-        {
-          fetchAsset: (path) =>
-            env.ASSETS.fetch(new Request(new URL(path, request.url))),
-          transformImage: async (body, { width, format, quality }) => {
-            const result = await env.IMAGES.input(body)
-              .transform(width > 0 ? { width } : {})
-              .output({ format, quality });
-            return result.response();
-          },
-        },
-        allowedWidths,
-      );
-    }
-
-    return handler.fetch(request, env, ctx);
+    return env.ASSETS.fetch(request);
   },
 };
 
